@@ -60,3 +60,23 @@ legend {
   margin-right: 1px;
   padding: 0;
 }
+
+.checkboxes label, .checkboxes input {
+  display: inline-block;
+}
+
+.checkboxes label {
+  font-size: .8em;
+  width: 4em;
+}
+
+.checkboxes input {
+  position: relative;
+  bottom: .2em;
+}
+
+#submit {
+  width: 8em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
